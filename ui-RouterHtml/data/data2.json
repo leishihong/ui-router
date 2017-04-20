@@ -1,0 +1,43 @@
+ [
+    {
+       "imgs":"./images/images/a.png",
+       "title":"酷狗飙升榜",
+       "src":"./images/icon/arrow_icon.png"
+    },
+     {
+       "imgs":"./images/images/b.png",
+       "title":"酷狗TOP500",
+       "src":"./images/icon/arrow_icon.png"
+       
+    },
+     {
+       "imgs":"./images/images/c.png",
+       "title":"网络红歌榜",
+       "src":"./images/icon/arrow_icon.png"
+       
+    },
+     {
+       "imgs":"./images/images/d.png",
+       "title":"DJ热歌榜",
+       "src":"./images/icon/arrow_icon.png"
+       
+    },
+     {
+       "imgs":"./images/images/e.png",
+       "title":"流行指数榜",
+       "src":"./images/icon/arrow_icon.png"
+       
+    },
+     {
+       "imgs":"./images/images/f.png",
+       "title":"美国iTunes榜",
+       "src":"./images/icon/arrow_icon.png"
+       
+    },
+     {
+       "imgs":"./images/images/h.png",
+       "title":"K歌金曲",
+       "src":"./images/icon/arrow_icon.png"
+       
+    }
+]

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>酷狗音乐</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/swiper.css" />
+		<link rel="stylesheet" href="css/demo.css" />
+	</head>
+	<body ng-app="app">
+		<header class="head">
+			<p class="logo">
+				<img src="./images/icon/logo.png" alt="" />
+			</p>
+			<span>下载酷狗</span>
+			<p class="search">
+				<img src="./images/icon/search.png" alt="" />
+			</p>
+		</header> 
+		<div class="dialog">
+			<div class="mark">
+				<h2>下载需要手机酷狗客户端支持</h2>
+				<p>
+					<span>取消</span><span class="done">在客户端下载</span>
+				</p>
+			</div>
+		</div>
+		<nav>
+			<ul class="list">
+				<li ui-sref-active="lis" ui-sref="home">新歌</li>
+				<li ui-sref-active="lis" ui-sref="demo">排行</li>
+				<li ui-sref-active="lis" ui-sref="product">歌单</li>
+				<li ui-sref-active="lis" ui-sref="info">歌手</li>
+			</ul>
+		</nav>
+		
+		
+		<section class="content">
+			<div ui-view></div>
+			
+		</section>
+		<!--页脚-->
+    <footer class="foot">
+    	<a href="">
+    		<dl>
+    			<dt><i class="iconfont icon-chaozhi f22"></i> </dt>
+    			<dd>首页</dd>
+    		</dl>
+    	</a>
+    	<a href="">
+    		<dl>
+    			<dt><i class="iconfont icon-bangzhu f22"></i></dt>
+    			<dd>信息</dd>
+    		</dl>
+    	</a>
+    	<a href="">
+    		<dl>
+    			<dt><i class="iconfont icon-bianji f22"></i></dt>
+    			<dd>我的</dd>
+    		</dl>
+    	</a>
+    	<a href="">
+    		<dl>
+    			<dt><i class="iconfont icon-biaoqian f22"></i></dt>
+    			<dd>爱好</dd>
+    		</dl>
+    	</a>
+    </footer>
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/angular.js"></script>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+		<script type="text/javascript" src="js/angular-ui-router.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript">
+		
+			/*//点击导航改变样式
+			$(".list").on("click","li",function(){
+				$(this).addClass("lis").siblings().removeClass("lis");
+			})*/
+			//dialog显示隐藏
+			$(".head").on("click","span",function(){
+				$(".dialog").css("visibility","visible")
+			})
+			$(".dialog").on("click",function(){
+				$(this).css("visibility","hidden")
+			})
+		</script>
+	</body>
+</html>

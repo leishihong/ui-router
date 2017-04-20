@@ -1,0 +1,37 @@
+ [
+    {
+       "src":"./images/images/4.jpg",
+       "title":"梦想的声音 合辑",
+       "icons":"./images/icon/icon_music.png",
+       "icons2":"./images/icon/arrow_icon.png",
+       "ps":"36207653"
+    },
+     {
+       "src":"./images/images/3.jpg",
+       "title":"热歌 合辑",
+       "icons":"./images/icon/icon_music.png",
+       "icons2":"./images/icon/arrow_icon.png",
+       "ps":"372385255"
+    },
+     {
+       "src":"./images/images/2.jpg",
+       "title":"围炉音乐会 合辑",
+       "icons":"./images/icon/icon_music.png",
+       "icons2":"./images/icon/arrow_icon.png",
+       "ps":"46890991"
+    },
+     {
+       "src":"./images/images/1.jpg",
+       "title":"百首华语挚爱情歌",
+       "icons":"./images/icon/icon_music.png",
+       "icons2":"./images/icon/arrow_icon.png",
+       "ps":"626714"
+    },
+     {
+       "src":"./images/images/4.jpg",
+       "title":"最是粤语情深处",
+       "icons":"./images/icon/icon_music.png",
+       "icons2":"./images/icon/arrow_icon.png",
+       "ps":"36207653"
+    }
+]
